@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #0d1117;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 15px;
+    font-size: 54px;
+
+}
+.path{
+    cursor: pointer;
+}
+
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Blinker', sans-serif;
+    font-size: 25px;
+    font-weight: 150;
+    padding-bottom: 20px;
+}
+
+form {
+    background: #161b22;
+    width: 280px;
+    height: 185px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 1em;
+    box-shadow: 0px 0px 0px 0.15px rgba(255, 255, 255, 0.5);
+}
+
+.txt_field{
+
+    background: #161b22;
+
+}
+
+label{
+    margin: 10px;
+    font-size: 15px;
+    background: #161b22;
+    font-weight: 100;
+}
+
+input{
+    height: 30px;
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #161b22;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 300;
+    outline-width: 20px;
+    outline-color: #4f97f0;
+    outline-width: 0.1px;
+    box-shadow: 0px 0px 0px 0.15px rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+
+
+.pass{
+    background: #161b22;
+    font-size: 13px;
+    float: right;
+
+
+}
+a{
+    text-decoration: none;
+    background: none;
+    color: #4f97f0;
+}
+.sign{
+    background: #238636;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.sign:hover{
+    background: #2ca544;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 16px;
+}
+.border{
+    width: 312px;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0.3px rgba(255, 255, 255, 0.5);
+    font-weight: 300px;
+}
+.border a:hover{
+text-decoration: underline;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer ul li{
+    float: left;
+    padding: 10px;
+    font-size: 12.5px;
+    list-style: none;
+}
+.contact a{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    
+}
+.contact a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #3c87d4;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
